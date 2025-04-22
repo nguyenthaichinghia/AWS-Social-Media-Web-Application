@@ -1,6 +1,7 @@
 import axios from 'axios'
+import { EC2_URL } from '../../credentials.js';
 
-const url = 'http://localhost:5000/posts';
+const url = EC2_URL;
 
 export const fetchPosts =() => axios.get(url);
 export const createPost=(newPost)=>axios.post(url,newPost)
