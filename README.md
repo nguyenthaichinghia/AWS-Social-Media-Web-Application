@@ -15,14 +15,14 @@ cd Social-Media-Web-App-master
 
 ### 2. Environment Variables
 
-Create a `credentials.js` file in the project's root directory with your EC2 instance and RDS Mysql's credentials :
+Supply the `credentials.js` file in the project's root directory with your EC2 instance and RDS Mysql's credentials :
 
 ```bash
 # ./credentials.js
-export const DB_HOST = 'group2-db-instance.cia52x53b50y.us-east-1.rds.amazonaws.com' <YOUR_DATABASE_HOST>;
-export const DB_USER = 'admin' <YOUR_DATABASE_USERNAME>;
-export const DB_PASSWORD = 'yourpassword#' <YOUR_DATABASE_PASSWORD>;
-export const DB_NAME = 'test1_db' <YOUR_DATABASE_TABLE_NAME>;
+export const DB_HOST = <YOUR_DATABASE_HOST>;
+export const DB_USER = <YOUR_DATABASE_USERNAME>;
+export const DB_PASSWORD = <YOUR_DATABASE_PASSWORD>;
+export const DB_NAME = <YOUR_DATABASE_TABLE_NAME>;
 export const EC2_URL = 'http://<YOUR_EC2_PUBLIC_IP:YOUR_EC2_PUBLIC_PORT>/posts' <>;
 ```
 
